@@ -122,6 +122,7 @@ data =  {
 }
 presence = ["Present","Absent","Unknown"];
 severity = ["Mild","Moderate","Severe"];
+#create a file named data.txt in the file directory of the program the cases are store in this txt file
 a=open("data.txt",'a')
 a.write("| Breathlessness ||   Sore throat  ||    Fever       ||     Cough      ||    Dry Cough   ||   Muscle pain  ||    Fatigue     ||    Diarrhea    ||    Sneezing    |\n")
 a.close()
